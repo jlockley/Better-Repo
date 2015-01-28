@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 Incy Mincy meetball climbing in the mouth
 Down came the water and washed the meatball down
 
 Out came the Bonnie and dried up all the rain
 And Niccy Wiccy spider climbed up the spout again
+=======
+Incy Wuzzy spider climbing up the spout
+Down came the rain and whopped the spider out
+Out came the fairy and dried up all the rain
+And Incy Wuzzy spider climbed up the spout again
+>>>>>>> 4fa72be2dedf8a3d9429cb301b083de90b93e69b
 
