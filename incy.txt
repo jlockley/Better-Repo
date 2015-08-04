@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 Itsy bitsy spider climbing up the waterspout.
 Down came the rain and washed the spider out.
 Out came the sunshine and dried up all the rain
 And the itsy bitsy spider climbed up the spout once again.......
+=======
+Humpty Dumpty sat on a wall
+:'(
+:'(
+
+>>>>>>> 77c03bb5762fc59c8535df273f76a4e71e32f6cf
