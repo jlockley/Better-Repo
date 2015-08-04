@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Incy Wincy spider climbing up the chimney
 Up went the smoke and blew the spider out
 In came the wind and flushed away all the smoke
@@ -9,3 +10,6 @@ Down came the rain and washed the spider's shampoo out
 Out came the sunshine and dried up all the raindancing australians
 And Incy Wincy spider climbed up the spout against the cheese
 >>>>>>> 6774f0dcfc832be9059582977320b98c9c942020
+=======
+POO
+>>>>>>> 8e9114594fab38167e0f2545a18192c4a8bd1fab
