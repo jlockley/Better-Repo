@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Incy Wincy spider climbing up the tree
 Down came the rain and washed the spider's knee
 Out came the sunshine and dried up all the pain
@@ -16,3 +17,6 @@ Down came the gravy and washed the spider out
 Out came the oven and dried up all the gravy
 And Incy Wincy spider climbed up the sausages again
 >>>>>>> 72b29e800fb16806e8a86e491c760e9b67d39810
+=======
+KILL THE SPIDERS!  KILL ALL OF THEM!
+>>>>>>> 50c50d3ae6f9a201a3d6777ba0193e0582c14940
