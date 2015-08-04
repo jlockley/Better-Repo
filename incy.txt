@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Incy Wincy bat climbing up the spout
 Down came the rain and washed the bat out
 Out came the sunshine and dried up all the rain
@@ -47,3 +48,10 @@ Now I am become Death, the destroyer of worlds
 
 Jack Is a Muppet!!!
 >>>>>>> 71d91d4b72c6c3d26aec6d93d30c38a3c2edeb9a
+=======
+Incy Wincy spider climbed up the water spout
+Down came the rain and washed poor incy out out
+Out came the sunshine and dried up all the rain
+And Incy Wincy spider climbed up the spout again
+
+>>>>>>> 2bcd80361812cf7bd1242e3a9cc5590ccb310d73
