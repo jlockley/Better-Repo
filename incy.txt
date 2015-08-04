@@ -1,9 +1,29 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Incy Wincy spider climbed up the water spout
 Down came the rain and washed poor incy out out
 Out came the sunshine and dried up all the rain
 And Incy Wincy spider climbed up the spout again
+=======
+KILL THE SPIDERS!  KILL ALL OF THEM!
+I WILL NOT KILL THE SPIDERS!
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Incy Wincy spider climbing up the chimney
+Up went the smoke and blew the spider out
+In came the wind and flushed away all the smoke
+And Incy Wincy spider climbed up the chimney again
+=======
+<<<<<<< HEAD
+Incy Wincy spider climbing up the tree
+Down came the rain and washed the spider's knee
+Out came the sunshine and dried up all the pain
+And Incy Wincy spider climbed up the tree again
+>>>>>>> 9be8d7eba1c06ca45ed6a197f205bb1217bf23d2
+>>>>>>> c6c02651f470182b401b47e6fdf0ff54f8fec84a
 =======
 Incy Wincy spider climbing up the spout of the chocolate teapot
 Down came the rain and washed the spider's shampoo out
@@ -11,5 +31,22 @@ Out came the sunshine and dried up all the raindancing australians
 And Incy Wincy spider climbed up the spout against the cheese
 >>>>>>> 6774f0dcfc832be9059582977320b98c9c942020
 =======
+<<<<<<< HEAD
 KILL THE SPIDERS!  KILL ALL OF THEM!
 >>>>>>> 50c50d3ae6f9a201a3d6777ba0193e0582c14940
+=======
+<<<<<<< HEAD
+POO
+>>>>>>> 8e9114594fab38167e0f2545a18192c4a8bd1fab
+=======
+Incy Wincy spider climbed up the water spout
+Down came the gravy and washed the spider out
+Out came the oven and dried up all the gravy
+And Incy Wincy spider climbed up the sausages again
+>>>>>>> 72b29e800fb16806e8a86e491c760e9b67d39810
+=======
+KILL THE SPIDERS!  KILL ALL OF THEM!
+>>>>>>> 50c50d3ae6f9a201a3d6777ba0193e0582c14940
+>>>>>>> 9be8d7eba1c06ca45ed6a197f205bb1217bf23d2
+>>>>>>> 5c44d43c6ebe746028645fdeb1ca6bebd733e9b3
+>>>>>>> c6c02651f470182b401b47e6fdf0ff54f8fec84a
