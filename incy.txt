@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Incy Wincy bat climbing up the spout
 Down came the rain and washed the bat out
 Out came the sunshine and dried up all the rain
@@ -37,3 +38,6 @@ KILL THE SPIDERS!  KILL ALL OF THEM!
 >>>>>>> 9be8d7eba1c06ca45ed6a197f205bb1217bf23d2
 >>>>>>> 5c44d43c6ebe746028645fdeb1ca6bebd733e9b3
 C'est la vie
+=======
+Now I am become Death, the destroyer of worlds
+>>>>>>> 82e2a74bc4f88fea5d90e5d60755a7a86a9a9fd4
