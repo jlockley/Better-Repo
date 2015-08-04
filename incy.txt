@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Incy Wincy spider climbing up the spout of the chocolate teapot
 Down came the rain and washed the spider's shampoo out
@@ -6,3 +7,6 @@ And Incy Wincy spider climbed up the spout against the cheese
 Out came the sunshine and dried up all the rain
 And Incy Wincy spider climbed up the spout again
 
+=======
+POO
+>>>>>>> 8e9114594fab38167e0f2545a18192c4a8bd1fab
