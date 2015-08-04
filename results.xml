@@ -1,0 +1,220 @@
+<testsuite errors="2" failures="5" name="" tests="88" time="3428.864">
+<testcase classname="regression.users.uk.app" name="check_user_app_availability" time="78.857"/>
+<testcase classname="regression.users.uk.app" name="close_fullscreen" time="32.527"/>
+<testcase classname="regression.users.uk.activatedeactivateusers" name="activate_deactivate_user" time="112.850"/>
+<testcase classname="regression.users.uk.app" name="close_default" time="33.339"/>
+<testcase classname="regression.users.uk.app" name="icon_view" time="42.112"/>
+<testcase classname="regression.users.uk.app" name="move_window" time="42.176"/>
+<testcase classname="regression.users.uk.app" name="default_sort_order" time="55.612"/>
+<testcase classname="regression.users.uk.app" name="resize_window" time="34.563">
+<failure type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/os#}}}
+Original exception: {{{AssertionError : Top of window did not resize}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/app/resize_window.py", line 52, in &lt;module>
+    raise AssertionError("Top of window did not resize")
+AssertionError: Top of window did not resize
+
+</failure>
+</testcase>
+<testcase classname="regression.users.uk.app" name="maximise_window" time="33.264"/>
+<testcase classname="regression.users.uk.app" name="reduce_window" time="35.484"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="export_all_user_data" time="73.561"/>
+<testcase classname="regression.users.uk.app" name="user_profiles" time="35.620"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="export_csv_template" time="37.096"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="export_new_user" time="62.518"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="export_single_user" time="42.684"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="export_user_with_groups" time="72.067"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="import_all_users_with_changes" time="84.244"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="import_all_profile_types" time="184.208"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="import_new_user" time="74.035"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="import_inactive_user_and_change_status" time="76.356">
+<failure type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/os#}}}
+Original exception: {{{AssertionError : Message: "xpath '//tr[1]/td[@class='user-name']//span[text()='TEMPInactivetwlzkadb']' found no elements within 30.00 seconds.  We expected 1.  We were searching inthe context of &lt;selenium.webdriver.chrome.webdriver.WebDriver object at 0x33e7650>."}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/csvimportandexport/import_inactive_user_and_change_status.py", line 102, in &lt;module>
+    assert_displayed(users.returned_search_results_locator(username))
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 671, in assert_displayed
+    element = _get_elem(id_or_elem)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 995, in _get_elem
+    _raise(str(e))
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 118, in _raise
+    raise AssertionError(msg)
+AssertionError: Message: "xpath '//tr[1]/td[@class='user-name']//span[text()='TEMPInactivetwlzkadb']' found no elements within 30.00 seconds.  We expected 1.  We were searching inthe context of &lt;selenium.webdriver.chrome.webdriver.WebDriver object at 0x33e7650>."
+
+</failure>
+</testcase>
+<testcase classname="regression.users.uk.csvimportandexport" name="import_valid_invalid_mix" time="80.463"/>
+<testcase classname="regression.users.uk.csvimportandexport" name="import_same_user" time="49.745"/>
+<testcase classname="regression.users.uk.edgecases" name="change_password" time="68.479"/>
+<testcase classname="regression.users.uk.edgecases" name="add_job_role_by_csv" time="82.605">
+<failure type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/os#}}}
+Original exception: {{{AssertionError : Element is not displayed}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/edgecases/add_job_role_by_csv.py", line 107, in &lt;module>
+    csvfile.click_action_cog_and_upload_file(temp_csv_file.name)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/shared/clientos/applications/users/csvfile.py", line 268, in click_action_cog_and_upload_file
+    assert_displayed(users.csvimport_import_complete)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 675, in assert_displayed
+    _raise(message)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 118, in _raise
+    raise AssertionError(msg)
+AssertionError: Element is not displayed
+
+</failure>
+</testcase>
+<testcase classname="regression.users.uk.edgecases" name="change_title" time="75.124"/>
+<testcase classname="regression.users.uk.edgecases" name="change_to_username_and_personal_dashboard" time="139.872"/>
+<testcase classname="regression.users.uk.edgecases" name="change_user_permissions" time="98.620"/>
+<testcase classname="regression.users.uk.edgecases" name="change_username" time="69.135"/>
+<testcase classname="regression.users.uk.edgecases" name="change_username_and_password" time="76.052"/>
+<testcase classname="regression.users.uk.edgecases" name="force_password_change" time="74.299"/>
+<testcase classname="regression.users.uk.edgecases" name="single_letter_firstname" time="46.407"/>
+<testcase classname="regression.users.uk.edgecases" name="user_rights" time="60.904"/>
+<testcase classname="regression.users.uk.edgecases" name="share_site_with_newly_created_student" time="144.259"/>
+<testcase classname="regression.users.uk.edgecases" name="user_rights" time="48.205"/>
+<testcase classname="regression.users.uk.edgecases" name="user_with_dot_ui" time="57.621"/>
+<testcase classname="regression.users.uk.edgecases" name="student_parent_relationship" time="93.361"/>
+<testcase classname="regression.users.uk.edgecases" name="user_rights" time="63.332"/>
+<testcase classname="regression.users.uk.edgecases" name="user_with_dot_csv" time="162.433">
+<failure type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/os#}}}
+Original exception: {{{
+AssertionError : Timed out waiting for: assert_displayed
+Error during wait: Message: "xpath '//div[@id='csv-import_validate']//div[contains(@class, 'alert alert-success')]' found no elements within 30.00 seconds.  We expected 1.  We were searching inthe context of &lt;selenium.webdriver.chrome.webdriver.WebDriver object at 0x361edd0>."
+}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/edgecases/user_with_dot_csv.py", line 80, in &lt;module>
+    wait_for(assert_displayed, users.validation_successful)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 925, in wait_for
+    return _wait_for(condition, False, _TIMEOUT, _POLL, *args, **kwargs)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 881, in _wait_for
+    _raise(error)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 118, in _raise
+    raise AssertionError(msg)
+AssertionError: Timed out waiting for: assert_displayed
+Error during wait: Message: "xpath '//div[@id='csv-import_validate']//div[contains(@class, 'alert alert-success')]' found no elements within 30.00 seconds.  We expected 1.  We were searching inthe context of &lt;selenium.webdriver.chrome.webdriver.WebDriver object at 0x361edd0>."
+
+</failure>
+</testcase>
+<testcase classname="regression.users.uk.editmode" name="actions_cog" time="44.678"/>
+<testcase classname="regression.users.uk.editmode" name="add_and_remove_group" time="49.092"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="86.913"/>
+<testcase classname="regression.users.uk.editmode" name="add_all_relationship_types" time="516.322"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="88.617"/>
+<testcase classname="regression.users.uk.editmode" name="add_and_remove_relationship" time="85.002"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="88.883"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="83.336"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="87.332"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.624"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="83.844"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.403"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.518"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.889"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="85.145"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.224"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="87.212"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="82.410"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="83.791"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="83.772"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.218"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="85.331"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="88.399"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.420"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="87.441"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="84.516"/>
+<testcase classname="regression.users.uk.editmode" name="add_multiple_groups" time="89.428"/>
+<testcase classname="regression.users.uk.editmode" name="change_password" time="53.980">
+<error type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/login}}}
+Original exception: {{{IndexError : list index out of range}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/editmode/change_password.py", line 66, in &lt;module>
+    login_as(user_type='admin', user_index=9, user_password=new_password)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/shared/steps/_login.py", line 36, in login_as
+    user_name = user_name or get_username_for(user_type, user_index)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/shared/testdata/_environmentconfig.py", line 104, in get_username_for
+    username, password = _get_credentials_for_user_type(user_type, index)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/shared/testdata/_environmentconfig.py", line 99, in _get_credentials_for_user_type
+    return credentials[index]
+IndexError: list index out of range
+
+</error>
+</testcase>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="86.362"/>
+<testcase classname="regression.users.uk.editmode" name="prepopulated_fields" time="84.479"/>
+<testcase classname="regression.users.uk.editmode" name="add_each_relationship_type" time="86.166"/>
+<testcase classname="regression.users.uk.newusercreation" name="character_limit" time="38.003">
+<error type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/os#}}}
+Original exception: {{{WebDriverException : Message: u'unknown error: Element is not clickable at point (597, 562). Other element would receive the click: &lt;div class="modal-backdrop fade in" style="position:absolute;">...&lt;/div>\n  (Session info: chrome=32.0.1700.77)\n  (Driver info: chromedriver=2.8.240825,platform=Linux 3.2.0-69-generic x86_64)'}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/newusercreation/character_limit.py", line 53, in &lt;module>
+    add_profile_photo("AP10")
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/shared/steps/_create_new_user.py", line 29, in add_profile_photo
+    click_element(basicinformation.change_photo_button)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 694, in click_element
+    elem.click()
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/selenium/webdriver/remote/webelement.py", line 65, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/selenium/webdriver/remote/webelement.py", line 385, in _execute
+    return self._parent.execute(command, params)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/selenium/webdriver/remote/webdriver.py", line 173, in execute
+    self.error_handler.check_response(response)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 166, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: u'unknown error: Element is not clickable at point (597, 562). Other element would receive the click: &lt;div class="modal-backdrop fade in" style="position:absolute;">...&lt;/div>\n  (Session info: chrome=32.0.1700.77)\n  (Driver info: chromedriver=2.8.240825,platform=Linux 3.2.0-69-generic x86_64)'
+
+</error>
+</testcase>
+<testcase classname="regression.users.uk.newusercreation" name="create_new_user" time="44.067"/>
+<testcase classname="regression.users.uk.editmode" name="add_parent_relationship" time="81.898"/>
+<testcase classname="regression.users.uk.editmode" name="edit_form_dropdowns" time="43.647"/>
+<testcase classname="regression.users.uk.newusercreation" name="hovering_tooltip" time="61.564"/>
+<testcase classname="regression.users.uk.searchandsort" name="action_cog_options" time="44.563">
+<failure type="testtools.testresult.real._StringException">_StringException: Current url: {{{https://automatedpc.clienttest.co.uk/app/os#}}}
+Original exception: {{{AssertionError : Action 'assert_has_css_class' did not fail}}}
+
+Traceback (most recent call last):
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/cases.py", line 217, in run_test_script
+    exec(self.code, self.context)
+  File "regression/users/uk/searchandsort/action_cog_options.py", line 90, in &lt;module>
+    fails(assert_has_css_class, users.archive_button, disabled_link_class)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 986, in fails
+    _raise(msg)
+  File "/var/lib/jenkins/workspace/RegressionUsersUK(Chrome,Linux)/ENV/lib/python2.6/site-packages/sst/actions.py", line 118, in _raise
+    raise AssertionError(msg)
+AssertionError: Action 'assert_has_css_class' did not fail
+
+</failure>
+</testcase>
+<testcase classname="regression.users.uk.searchandsort" name="invalid_search" time="35.831"/>
+<testcase classname="regression.users.uk.searchandsort" name="sort_every_heading" time="38.213"/>
+<testcase classname="regression.users.uk.newusercreation" name="all_profile_types" time="166.872"/>
+<testcase classname="regression.users.uk.newusercreation" name="check_new_users_form" time="39.418"/>
+<testcase classname="regression.users.uk.selectbuttonactioncog" name="multi_user_archive" time="79.306"/>
+<testcase classname="regression.users.uk.selectbuttonactioncog" name="show_and_hide_select_ticks" time="36.931"/>
+<testcase classname="regression.users.uk.newusercreation" name="edit_and_discard_user" time="42.781"/>
+<testcase classname="regression.users.uk.newusercreation" name="new_users_unsaved_changes" time="27.380"/>
+<testcase classname="regression.users.uk.searchandsort" name="delete_search" time="27.655"/>
+<testcase classname="regression.users.uk.searchandsort" name="search_for_user" time="36.107"/>
+<testcase classname="regression.users.uk.selectbuttonactioncog" name="archive_and_cancel" time="26.316"/>
+<testcase classname="regression.users.uk.selectbuttonactioncog" name="select_all_options" time="37.067"/>
+<testcase classname="regression.users.uk.selectbuttonactioncog" name="single_user_archive" time="41.855"/>
+</testsuite>
