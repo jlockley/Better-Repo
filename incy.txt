@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Incy Wincy spider climbed up the water spout
 Down came the rain and washed poor incy out out
 Out came the sunshine and dried up all the rain
@@ -9,3 +10,6 @@ Down came the rain and washed the spider's shampoo out
 Out came the sunshine and dried up all the raindancing australians
 And Incy Wincy spider climbed up the spout against the cheese
 >>>>>>> 6774f0dcfc832be9059582977320b98c9c942020
+=======
+KILL THE SPIDERS!  KILL ALL OF THEM!
+>>>>>>> 50c50d3ae6f9a201a3d6777ba0193e0582c14940
